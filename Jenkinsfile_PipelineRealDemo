@@ -12,7 +12,7 @@ pipeline {
                 sh "./PipelineRealDemo.py"
             }
         }
-     stage('Test Code') {
+         stage('Test Code') {
             steps {
                 sh "chmod u+x TestPipelineRealDemo.py"
                 sh "./TestPipelineRealDemo.py"
