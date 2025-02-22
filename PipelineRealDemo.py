@@ -1,3 +1,5 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
+# Source code for summation of two numbers
 
-print("Real Demo Pipeline")
+def summation(data):
+    return sum(data)
